@@ -40,7 +40,6 @@ export const Project = (): JSX.Element => {
     fetchData();
   }, []);
 
-  console.log(repositories);
   return (
     <>
       {repositories &&
@@ -83,7 +82,7 @@ export const Project = (): JSX.Element => {
               </ProjectLink>
               {repository.homepage && (
                 <ProjectLink target="_blank" href={repository.homepage}>
-                  <FaShare /> See demo
+                  <FaShare /> Page
                 </ProjectLink>
               )}
             </ProjectLinks>
