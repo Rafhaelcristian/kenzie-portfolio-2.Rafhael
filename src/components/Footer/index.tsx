@@ -21,10 +21,19 @@ export const Footer = (): JSX.Element => {
           />
           <Box css={{ marginLeft: "$2" }}>
             <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
-              Obrigado! {/* <HandEffect /> */}
+              Sobre mim {/* <HandEffect /> */}
             </Text>
             <Text type="body1" color="grey2">
-              Siga-me nas redes sociais e vamos conversar
+              Bem, sou formado em Agronomia pela UESB (Universidade Estadual do
+              sudoeste da Bahia), mas no momento passo por uma transição de
+              carreira. Sempre gostei de tecnologia, principalmente jogos e
+              informática, e hoje em dia eu me encontrei na programação, estou
+              indo pro 6 módulo, de um total de 6. Desenvolvo projetos FrontEnd
+              utilizando: HTML5, CSS3, JavaScript ( DOM, JSON, API), TypeScript,
+              como também algumas bibliotecas, react.js, zod, styled components,
+              yup, axios, e utilizando web responsivo(mobile first) e figma. No
+              BackEnd tenho noção de SQL utilizando, pg, pg-format, typeorm,
+              express, python, django.
             </Text>
           </Box>
         </Flex>
